@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+    <title>키보드판매</title>
+
+    <style>
+        .keyboard {
+            background-image: url(https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MLA22KH?wid=4000&hei=1800&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1496100488203);
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            width: 500px;
+            height: 200px;
+            border-radius: 10px;
+            padding-top: 50px;
+
+        }
+
+        .wrap {
+            width: 500px;
+            margin: 10px auto;
+        }
+
+    </style>
+    <script>
+        function order() {
+            alert('주문이 완료되었습니다.');
+        }
+    </script>
+
+
+</head>
+
+<body>
+
+<div class="wrap">
+    <div class="keyboard">
+    </div>
+
+    <h1>
+        <bold>키보드</bold>
+    </h1>
+    <h5>가격:300,000원/개</h5>
+
+
+    <p><small>새롭고 세련된 디자인의 Magic Keyboard는 내장형 충전식 배터리와 더욱 향상된 키 기능을 갖추고 있습니다. 각각의 키 아래 가위식 메커니즘을 적용해 안정성을 높이고, 키 트래블은
+        최적화시키고 높이까지
+        낮춘 Magic Keyboard는 편안하고 정확한 타이핑 경험을 선사합니다....</small></p>
+    <div>
+        <h1>
+            <bold>주문하기</bold>
+        </h1>
+
+        <P>주문자 성함: <input type="text"/>
+        </P>
+        <p>수량:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text"/>
+        </p>
+        <P>주소:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text"/>
+        </P>
+        <P>전화번호:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text"/>
+        </P>
+    </div>
+   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <a class="btn btn-primary btn-lg" href="#" role="button" onclick="order()">주문하기</a>
+</div>
+</div>
+
+</div>
+
+
+</body>
+
+</html>
